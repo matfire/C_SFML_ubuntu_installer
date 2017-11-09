@@ -40,6 +40,9 @@ apt-get install libflac-dev
 apt-get install libfreetype6-dev
 apt-get install libopenal-dev
 apt-get install libxcb-image0-dev
+apt-get install libx11-xcb-dev
+apt-get install libxcb-randr0-dev
+apt-get install freeglut3-dev
 
 echo "SFML Compilation"
 cd SFML
@@ -117,4 +120,4 @@ echo "/usr/local/lib/" > /etc/ld.so.conf.d/csfml.conf
 # Update the Dynamic Linker Run Time Bindings
 ldconfig
 
-#rm -rf "$CSFML_ZIP" "$CSFML_PATH" "$SFML_ZIP" "$SFML_PATH"
+rm -rf "$CSFML_ZIP" "$CSFML_PATH" "$SFML_ZIP" "$SFML_PATH"
