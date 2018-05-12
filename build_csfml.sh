@@ -33,16 +33,16 @@ echo "Install necessary package"
 apt-get install -y libjpeg-turbo8-dev patch
 
 echo "Install necessary branch"
-apt-get install cmake
-apt-get install libvorbis-dev
-apt-get install libudev-dev
-apt-get install libflac-dev
-apt-get install libfreetype6-dev
-apt-get install libopenal-dev
-apt-get install libxcb-image0-dev
-apt-get install libx11-xcb-dev
-apt-get install libxcb-randr0-dev
-apt-get install freeglut3-dev
+apt-get install cmake -y
+apt-get install libvorbis-dev -y
+apt-get install libudev-dev -y
+apt-get install libflac-dev -y
+apt-get install libfreetype6-dev -y
+apt-get install libopenal-dev -y
+apt-get install libxcb-image0-dev -y
+apt-get install libx11-xcb-dev -y
+apt-get install libxcb-randr0-dev -y
+apt-get install freeglut3-dev -y
 
 echo "SFML Compilation"
 cd SFML
